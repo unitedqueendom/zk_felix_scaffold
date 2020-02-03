@@ -1,0 +1,61 @@
+body {
+	color: white;
+	text-align: center;
+}
+#container {
+	margin: 0 auto;
+	width: 960px;
+}
+#topbar {
+	background-color: black;
+	height: 50px;
+	width: 960px;
+	margin-left: 230px;
+
+	
+}
+
+#pictures {
+	margin-top: 30px;
+	flex-direction: row;
+	display: flex;
+
+}
+#pictureLeft {
+	width: 400px;
+	height: 400px;
+	margin-left: 230px;
+	background-color: black;
+
+}
+
+#pictureRight {
+	width: 500px;
+	height: 400px;
+	margin-left: 60px;
+	background-color: black;
+
+}
+
+#bottomBar {
+	width: 960px;
+	height: 50px;
+	margin-top: 30px;
+	margin-left: 230px;
+	background-color: black;
+}
+
+.product {
+	flex-direction: row;
+	display: flex;
+	justify-content: center;
+	margin-top: 30px;
+	padding-right: 120px;
+
+}
+.productPic {
+	width: 200px;
+	height: 200px;
+	margin-left: 100px;
+	background-color: black;
+}
